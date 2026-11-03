@@ -1,0 +1,83 @@
+{
+  "test_accuracy": 0.9138,
+  "baseline_logistic_regression_accuracy": 0.8452,
+  "error_reduction_vs_baseline": 0.4432,
+  "parameters": 65834,
+  "epochs": 12,
+  "train_minutes_cpu": 15.9,
+  "best_val_accuracy": 0.9194,
+  "per_class_f1": {
+    "T-shirt/top": 0.8633,
+    "Trouser": 0.9839,
+    "Pullover": 0.8912,
+    "Dress": 0.8983,
+    "Coat": 0.8749,
+    "Sandal": 0.9763,
+    "Shirt": 0.7368,
+    "Sneaker": 0.9575,
+    "Bag": 0.9895,
+    "Ankle boot": 0.964
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4546,
+      "val_acc": 0.7642
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8954,
+      "val_acc": 0.8042
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7868,
+      "val_acc": 0.8012
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.72,
+      "val_acc": 0.8358
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6777,
+      "val_acc": 0.8604
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6476,
+      "val_acc": 0.8956
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6232,
+      "val_acc": 0.897
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6059,
+      "val_acc": 0.9072
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5919,
+      "val_acc": 0.9066
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5764,
+      "val_acc": 0.9178
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5646,
+      "val_acc": 0.9182
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5623,
+      "val_acc": 0.9194
+    }
+  ]
+}
